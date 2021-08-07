@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mi presentación</title>
+</head>
+
+<style>
+
+	body {
+		background-image: url(/img/bg7.jpg);
+		background-size: 100vw 100vh;
+		background-attachment: fixed;
+		margin: 0%;
+		font-family: monospace;
+	}
+
+	form {
+		width: 450px;
+		margin: auto;
+		background: rgba(0,0,0,0.4);
+		padding: 10px 20px;
+		box-sizing: border-box;
+		margin-top: 20px;
+		border-radius: 7px;
+	}
+
+	h2{
+		color: #fff;
+		text-align: center;
+		margin: 0;
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+
+	input, textarea{
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 7px;
+		box-sizing: border-box;
+		font-size: 17px;
+		border: none;
+	}
+
+	textarea{
+		min-height: 100px;
+		max-height: 200px;
+		max-width: 100%;
+	}
+
+	#boton{
+		background: #31384a;
+		color: white;
+		padding: 20px;
+	}
+
+	#boton:hover {
+		cursor: pointer;
+	}
+
+	.navbar a {
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+	}
+
+	.navbar a:hover {
+	background: #1D2F3D;
+	color: #fff;
+	text-decoration: none;
+	}
+
+	@media (max-width:480px) {
+		form {
+			width: 100%;
+		}
+	}
+
+</style>
+
+<body>
+	<form action="">
+		<h2>CONTACTO</h2>
+		<input type="text" name="Nombre" placeholder="Nombre">
+		<input type="text" name="Correo" placeholder="Correo">
+		<input type="text" name="Teléfono" placeholder="Teléfono">
+		<textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba aquí su mensaje"></textarea>
+		<input type="button" value="ENVIAR" id="boton">
+	</form>
+	<footer>
+		<nav class="navbar">
+			<div class="contenedor">
+				<a href="index.html">INICIO</a>
+				<a href="sobremi.html">SOBRE MÍ</a>
+			</div>
+		</nav>
+	</footer>
+</body>
+
+</html>
